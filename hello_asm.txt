@@ -1,0 +1,16 @@
+hello:
+(__TEXT,__text) section
+_main:
+0000000100000f60	pushq	%rbp
+0000000100000f61	movq	%rsp, %rbp
+0000000100000f64	subq	$0x10, %rsp
+0000000100000f68	movl	$0x0, -0x4(%rbp)
+0000000100000f6f	leaq	0x34(%rip), %rdi
+0000000100000f76	movb	$0x0, %al
+0000000100000f78	callq	0x100000f8a
+0000000100000f7d	xorl	%ecx, %ecx
+0000000100000f7f	movl	%eax, -0x8(%rbp)
+0000000100000f82	movl	%ecx, %eax
+0000000100000f84	addq	$0x10, %rsp
+0000000100000f88	popq	%rbp
+0000000100000f89	retq

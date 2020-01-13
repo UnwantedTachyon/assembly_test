@@ -1,0 +1,10 @@
+test:
+(__TEXT,__text) section
+_main:
+0000000100000fa0	pushq	%rbp
+0000000100000fa1	movq	%rsp, %rbp
+0000000100000fa4	xorl	%eax, %eax
+0000000100000fa6	movl	$0x0, -0x4(%rbp)
+0000000100000fad	movl	$0x3, -0x8(%rbp)
+0000000100000fb4	popq	%rbp
+0000000100000fb5	retq
